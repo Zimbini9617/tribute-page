@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   font-size: 14px;
 }
@@ -12,6 +13,7 @@ body {
     "Lucida Sans", Arial, sans-serif;
   font-size: 1.2rem;
 }
+
 p,
 li {
   font-size: 1.1rem;
@@ -37,6 +39,11 @@ header {
   margin: 20px 12px;
 }
 
+footer p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
 .hero p {
   padding: 25px 0;
 }
@@ -52,6 +59,7 @@ h2 {
   text-align: center;
   margin-bottom: 40px;
 }
+
 li {
   margin-bottom: 25px;
   line-height: 30px;
@@ -67,9 +75,4 @@ li {
 footer {
   padding: 20px 0;
   text-align: center;
-}
-
-footer p {
-  font-size: 1.3rem;
-  font-weight: 400;
 }
