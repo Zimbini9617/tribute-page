@@ -1,61 +1,104 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
+h3 {
+  display: block;
+  font-size: 2.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+html {
+  font-size: 16px;
 }
 
 body {
-  background-color: #f9fbb2;
-}
-
-.header {
-  width: 80%;
-  max-width: 1200px;
-  margin: 30px auto;
-  background-color: #e3e9c2;
-  display: flex;
-  justify-content: center;
-  border-radius: 30px;
-}
-
-.intro {
-  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
   text-align: center;
-  padding: 30px;
+  color: black;
+  margin: 0;
 }
 
-.img {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 70%;
-  max-width: 1000px;
-  margin: 0 auto;
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
 }
 
-span {
-  line-height: 60px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
   text-align: center;
 }
 
-.hero_text {
-  border-radius: 30px;
-  background-color: #e3e9c2;
-  width: 80%;
-  max-width: 1200px;
-  margin: 35px auto;
-  padding: 30px 50px;
-  line-height: 35px;
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
 }
 
-h4 {
-  text-align: center;
-  font-size: 30px;
-  padding-top: 50px;
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
 }
