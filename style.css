@@ -21,9 +21,9 @@ li {
 }
 
 .wrapper {
+  margin: 3vh 10px;
   margin-top: 3vh;
   margin-bottom: 3vh;
-  margin: 3vh 10px;
   border-radius: 6px;
 }
 
@@ -50,7 +50,6 @@ footer p {
 
 .main-text {
   max-width: 600px;
-
   margin: 30px auto;
 }
 
