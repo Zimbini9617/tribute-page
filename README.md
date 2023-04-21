@@ -14,6 +14,10 @@ Creating a tribute page for Dr. Norman Borlaug
 - Install Git.
 - Install Vs code or any text editor.
 
+## Live View
+
+[Tribute-page](https://fascinating-smakager-dba1c4.netlify.app/)
+
 👤 **Author1**
 
 **Zimbini Sambunjana**
